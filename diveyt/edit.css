@@ -9,10 +9,6 @@
 */
 
 /*Replaces controller base with custom asset*/
-.edit .controller.ds4 {
-    background: url(https://xhamrttv.github.io/diveyt/base.png);
-}
-
 .controller.edit {
     background: url(https://xhamrttv.github.io/diveyt/base.png);
 }

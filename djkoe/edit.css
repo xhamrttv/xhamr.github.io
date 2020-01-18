@@ -9,9 +9,6 @@
 */
 
 /*Replaces controller base with custom asset*/
-.edit .controller.ds4 {
-    background: url(https://xhamrskins.github.io/djkoe/base.png);
-}
 
 .controller.edit {
     background: url(https://xhamrskins.github.io/djkoe/base.png);

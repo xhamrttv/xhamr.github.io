@@ -9,23 +9,12 @@
 */
 
 /*Replaces controller base with custom asset*/
-.edit .controller.ds4 {
-    background: url(https://xhamrskins.github.io/drdabbs/base.gif);
-}
-
 .controller.edit {
     background: url(https://xhamrskins.github.io/drdabbs/base.gif);
 }
 
 /*Triggers section requires more code than expected,
 replaces the active triggers. Use strength meter for best results*/
-.edit .ds4 .triggers {
-    width: 588px;
-    height: 90px;
-    position: absolute;
-    left: 109px;
-}
-
 .edit .triggers {
     width: 588px;
     height: 90px;
@@ -33,25 +22,12 @@ replaces the active triggers. Use strength meter for best results*/
     left: 109px;
 }
 
-.edit .ds4 .trigger {
-    background: url(https://xhamrskins.github.io/drdabbs/triggers.png);
-}
-
 .edit .trigger {
     background: url(https://xhamrskins.github.io/drdabbs/triggers.png);
 }
 
-.edit .ds4 .trigger.left {
-    float: left;
-}
-
 .edit .trigger.left {
     float: left;
-}
-
-.edit .ds4 .trigger.right {
-    float: right;
-    background-position-x: 99px;
 }
 
 .edit .trigger.right {
@@ -60,20 +36,8 @@ replaces the active triggers. Use strength meter for best results*/
 }
 
 /*Replaces Bumpers with custom assets*/
-.edit .ds4 .bumper {
-    background: url(https://xhamrskins.github.io/drdabbs/bumper.png) no-repeat;
-}
-
 .edit .bumper {
     background: url(https://xhamrskins.github.io/drdabbs/bumper.png) no-repeat;
-}
-
-.edit .ds4 .bumpers {
-    position: absolute;
-    width: 588px;
-    height: 23px;
-    left: 109px;
-    top: 94px;
 }
 
 .edit .bumpers {
@@ -84,21 +48,10 @@ replaces the active triggers. Use strength meter for best results*/
     top: 94px;
 }
 
-.edit .ds4 .bumper.left {
-    /* -webkit-transform: rotateY(180deg); */
-    /* transform: rotateY(180deg); */
-    float: left;
-}
-
 .edit .bumper.left {
     /* -webkit-transform: rotateY(180deg); */
     /* transform: rotateY(180deg); */
     float: left;
-}
-
-.edit .ds4 .bumper.right {
-    float: right;
-    transform: rotateY(180deg);
 }
 
 .edit .bumper.right {
@@ -107,14 +60,6 @@ replaces the active triggers. Use strength meter for best results*/
 }
 
 /*Replaces Touchpad (pressed) with custom assets*/
-.edit .ds4 .touchpad {
-    width: 262px;
-    height: 151px;
-    position: absolute;
-    left: 272px;
-    top: 122px;
-}
-
 .edit .touchpad {
     width: 262px;
     height: 151px;
@@ -123,55 +68,28 @@ replaces the active triggers. Use strength meter for best results*/
     top: 122px;
 }
 
-.edit .ds4 .touchpad.pressed {
-    background: url(https://xhamrskins.github.io/drdabbs/touchpad.gif);
-}
-
 .edit .touchpad.pressed {
     background: url(https://xhamrskins.github.io/drdabbs/touchpad.gif);
 }
 
 /*Input buttons (left)*/
-.edit .face .ds4 {
-    background: url(https://xhamrskins.github.io/drdabbs/dpad.png);
-}
-
-
 .edit .face {
     position: absolute;
     background: url(https://xhamrskins.github.io/drdabbs/dpad.png);
 }
 
 /*Replaces sticks with regular and input*/
-.edit .stick .ds4 {
-    background: url(https://xhamrskins.github.io/drdabbs/sticks.png);
-}
-
-
 .edit .stick {
     position: absolute;
     background: url(https://xhamrskins.github.io/drdabbs/sticks.png);
 }
 
 /*Replaces Options and Share button's input version*/
-.edit .ds4 .back, .ds4 .start {
-    background: url(https://xhamrskins.github.io/drdabbs/start.png);
-    width: 28px;
-    height: 46px;
-    opacity: 0;
-}
-
 .edit .back, .start {
     background: url(https://xhamrskins.github.io/drdabbs/start.png);
     width: 28px;
     height: 46px;
     opacity: 0;
-}
-
-.edit .ds4 .back.pressed, .ds4 .start.pressed {
-    /* background-position-y: -21px; */
-    /* margin-top: 2px; */
-    opacity: 1;
 }
 
 .edit .back.pressed, .start.pressed {
@@ -180,20 +98,9 @@ replaces the active triggers. Use strength meter for best results*/
     opacity: 1;
 }
 
-.edit .ds4 .back {
-    float: left;
-    /* width: 28px; */
-}
-
 .edit .back {
     float: left;
     /* width: 28px; */
-}
-
-.edit .ds4 .start {
-    float: right;
-    /* width: 28px; */
-    background-position: 28px 0;
 }
 
 .edit .start {
@@ -203,24 +110,11 @@ replaces the active triggers. Use strength meter for best results*/
 }
 
 /*Replaces and correctly positions Playstation icon when inputted*/
-.edit .ds4 .meta {
     width: 42px;
     height: 42px;
     position: absolute;
     left: 382px;
     bottom: 216px;
-}
-
-.edit .meta {
-    width: 42px;
-    height: 42px;
-    position: absolute;
-    left: 382px;
-    bottom: 216px;
-}
-
-.edit .ds4 .meta.pressed {
-    background: url(https://xhamrskins.github.io/drdabbs/meta.png) no-repeat center;
 }
 
 .edit .meta.pressed {
